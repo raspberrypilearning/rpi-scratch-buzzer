@@ -1,19 +1,13 @@
-## Introduction
+With Scratch 2 open and the GPIO extension added, connect your buzzer to a GPIO pin. In the code below, GPIO pin 4 is used.
 
-Add project description here. What will learners be making?
+- To sound the buzzer you need to set the pin high, using the following block.
 
-### What you will make
+![high](images/high.png)
 
-Add something here to showcase here, for example:
+- To turn the buzzer off you need to set the pin low, using the following block.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+![low](images/low.png)
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+- Here's an example of a script that can be used to cause the buzzer to beep.
 
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+![script](images/script.png)
